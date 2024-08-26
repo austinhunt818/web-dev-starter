@@ -1,4 +1,44 @@
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  margin-bottom: 1px;
+  color: rgb(10, 10, 59);
+  text-shadow: 2px 2px blue,
+   4px 4px orange,
+   6px 6px blue,
+   8px 8px orange;
+   text-align: center;
+   font-size: 4rem;
+}
+
+body{
+  background-color: rgb(68, 68, 68);
+}
+
+img{
+  border: solid rgb(71, 99, 132) 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul{
+  color: lightblue;
+  text-align: center;
+  list-style-type: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button{
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: blue;
+  color: orange;
+  font-size: 1rem;
+  box-shadow: 2px 2px darkblue;
 }

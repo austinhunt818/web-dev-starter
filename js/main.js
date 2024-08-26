@@ -16,3 +16,7 @@ function loaded() {
 export function sayHello() {
     return 'hello';
 }
+
+let button = document.getElementById('btn');
+button.addEventListener('click', () => 
+    alert("Hello!"));
